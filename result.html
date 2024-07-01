@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html >
+<head>
+    <meta charset="utf-8" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="JavaScript.js" ></script>
+    <title></title>
+</head>
+<body class="bodyh" onpageshow="res()">
+    <div id="warpper">
+        <nav id="BoardMenu" onmouseleave="closeNav()">
+            <div id="openBoardMenu" onmouseover="openNav()"></div>
+            <a href="play.html" onclick="neww()">משחק חדש</a>
+            <a href="play.html" onclick="prevv()">המשך משחק </a>
+            <a href="instration.html">הוראות משחק</a>
+            <label onclick="showRadio()">בחר רמה</label>
+            <div id="levels">
+                <label for="level1">מתחיל</label>
+                <input type="radio" id="level1" name="level" value="מתחיל" onclick="levell1()" /><br />
+                <label for="level2">מתקדם</label>
+                <input type="radio" id="level2" name="level" value="מתקדם" onclick="levell2()" />
+            </div>
+        </nav>
+    </div>
+    <div>
+        <button onclick="window.print()">הדפסה</button>
+        <fieldset id="fieldest1" style="width:800px; height:1000px; text-align:center;">
+            <legend id="resultFile">תוצאות</legend>
+            <div id="score">
+                <!--<label id="alll"> <b>משחקים ששוחקו:</b> </label><br />-->
+                <label id="true"> <b>נצחונות:</b></label><br />
+                <label id="false"> <b> כשלונות:</b> </label><br />
+                <label id="together"> <b> ניקוד:</b> </label><br />
+                <img id="grade" />
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>

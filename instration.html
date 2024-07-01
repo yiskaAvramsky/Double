@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="JavaScript.js"></script>
+    <title></title>
+</head>
+<body class="bodyh"  >
+    <div id="warpper">
+        <nav id="BoardMenu" onmouseleave="closeNav()">
+            <div id="openBoardMenu" onmouseover="openNav()"></div>
+            <a href="play.html" onclick="neww()">משחק חדש</a>
+            <a href="play.html" onclick="prevv()">המשך משחק </a>
+            <a href="instration.html">הוראות משחק</a>
+            <label onclick="showRadio()">בחר רמה</label>
+            <div id="levels">
+                <label for="level1">מתחיל</label>
+                <input type="radio" id="level1" name="level" value="מתחיל" onclick="levell1()" /><br />
+                <label for="level2">מתקדם</label>
+                <input type="radio" id="level2" name="level" value="מתקדם" onclick="levell2()" />
+            </div>
+        </nav>
+    </div>
+    <h1>!ברוך הבא למשחק טוגזר</h1>
+    <p style="text-align:center" ;>
+        <br /><b>הוראות משחק</b>   <br />
+        עליך להספיק למצא את התמונה הזהה ב-2 הכרטיסים שעל המסך. <br />
+
+        !שים לב! לזמן! אם תם זמנך, התמונה הנכונה תהבהב וירדו לך נקודות  ומייד יוצגו הקלפים הבאים  <br />
+        משחק מהנה!בהצלחההה.... <br />
+    </p>
+</body>
+</html>
