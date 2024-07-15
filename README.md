@@ -1,4 +1,3 @@
-![צילום מסך 2024-07-15 204750](https://github.com/user-attachments/assets/0aa92a97-9e88-415f-bfc2-4133a96be386)# Overview
 Double is a fast-paced card game that challenges players to match symbols and improve their reaction time. The game requires quick thinking and sharp observation skills to find matching pairs of symbols.
 # Properties
 User-friendly design for an engaging gaming experience.
